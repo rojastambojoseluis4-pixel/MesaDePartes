@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MesadePartes</class>
+ <widget class="QWidget" name="MesadePartes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1019</width>
+    <height>458</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btnRegistrar">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>340</y>
+     <width>81</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Registrar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBuscar">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>400</y>
+     <width>81</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>buscar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnOrdenar">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>340</y>
+     <width>81</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ordenar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnEliminar">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>340</y>
+     <width>81</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtCiudadano">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>140</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtDireccin">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>180</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtCodigo">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtTelefono">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>260</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>9</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtDNI">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>220</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>8</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtAsunto">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>290</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>200</number>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtBuscar">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>400</y>
+     <width>113</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tablaExpedientes">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>60</y>
+     <width>581</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(200, 190, 196);
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>49</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Telefono</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>180</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Dirección</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>100</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Codigo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ciudadano</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>230</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DNI</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>300</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Asunto</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="RegistraExpedientes">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>361</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(200, 190, 196);
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblFechaHora">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fecha y hora </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 18px;
+font-weight: bold;
+color: #1565c0;
+background-color: transparent;
+</string>
+   </property>
+   <property name="text">
+    <string>Sistema de mesa de partes </string>
+   </property>
+  </widget>
+  <zorder>RegistraExpedientes</zorder>
+  <zorder>btnRegistrar</zorder>
+  <zorder>btnBuscar</zorder>
+  <zorder>btnOrdenar</zorder>
+  <zorder>btnEliminar</zorder>
+  <zorder>txtCiudadano</zorder>
+  <zorder>txtDireccin</zorder>
+  <zorder>txtCodigo</zorder>
+  <zorder>txtTelefono</zorder>
+  <zorder>txtDNI</zorder>
+  <zorder>txtAsunto</zorder>
+  <zorder>txtBuscar</zorder>
+  <zorder>tablaExpedientes</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>lblFechaHora</zorder>
+  <zorder>label_7</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
