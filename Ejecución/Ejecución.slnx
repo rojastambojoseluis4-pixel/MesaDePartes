@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Ejecución.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="de7d24b1-f0c3-4e46-919a-6d28f056a90f">
+    <Build Project="false" />
+  </Project>
+  <Project Path="GUI/GUI.pyproj" Type="888888a0-9f3d-457c-b088-3a5042f75d52" Id="305b8e85-3530-4617-9c2b-ffdbdbb039f1">
+    <Build Project="false" />
+  </Project>
+</Solution>
