@@ -168,3 +168,7 @@ def registrar_expediente():
   guardar_datos_en_archivo()
   print("\nExpediente registrado correctamente.")
   input("\nPresione Enter para continuar...")
+  git add .
+git commit -m "feat: operaciones CRUD y busqueda dual por codigo binario recursivo o DNI"
+git push origin main
+
